@@ -1,0 +1,27 @@
+{"frames": {
+
+"CachedBmp_486":
+{
+	"frame": {"x":0,"y":1090,"w":1469,"h":923},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1469,"h":923},
+	"sourceSize": {"w":1469,"h":923}
+},
+"Mapadebits3":
+{
+	"frame": {"x":0,"y":0,"w":1957,"h":1088},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1957,"h":1088},
+	"sourceSize": {"w":1957,"h":1088}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "21.0.0.35450",
+	"image": "23.2 INCORRECTA_atlas_2.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}

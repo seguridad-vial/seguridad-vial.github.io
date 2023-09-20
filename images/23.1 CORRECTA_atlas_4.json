@@ -1,0 +1,107 @@
+﻿{"frames": {
+
+"CachedBmp_1499":
+{
+	"frame": {"x":306,"y":838,"w":133,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":133,"h":95},
+	"sourceSize": {"w":133,"h":95}
+},
+"CachedBmp_1500":
+{
+	"frame": {"x":0,"y":713,"w":594,"h":123},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":594,"h":123},
+	"sourceSize": {"w":594,"h":123}
+},
+"CachedBmp_1501":
+{
+	"frame": {"x":0,"y":372,"w":970,"h":339},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":970,"h":339},
+	"sourceSize": {"w":970,"h":339}
+},
+"CachedBmp_1502":
+{
+	"frame": {"x":0,"y":0,"w":972,"h":370},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":972,"h":370},
+	"sourceSize": {"w":972,"h":370}
+},
+"CachedBmp_738":
+{
+	"frame": {"x":0,"y":838,"w":304,"h":107},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":304,"h":107},
+	"sourceSize": {"w":304,"h":107}
+},
+"CachedBmp_742":
+{
+	"frame": {"x":453,"y":838,"w":10,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":10},
+	"sourceSize": {"w":10,"h":10}
+},
+"CachedBmp_744":
+{
+	"frame": {"x":441,"y":874,"w":10,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":10},
+	"sourceSize": {"w":10,"h":10}
+},
+"CachedBmp_745":
+{
+	"frame": {"x":441,"y":862,"w":10,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":10},
+	"sourceSize": {"w":10,"h":10}
+},
+"CachedBmp_746":
+{
+	"frame": {"x":441,"y":886,"w":10,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":10},
+	"sourceSize": {"w":10,"h":10}
+},
+"CachedBmp_748":
+{
+	"frame": {"x":441,"y":850,"w":10,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":10},
+	"sourceSize": {"w":10,"h":10}
+},
+"CachedBmp_750":
+{
+	"frame": {"x":441,"y":838,"w":10,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":10},
+	"sourceSize": {"w":10,"h":10}
+},
+"CachedBmp_755":
+{
+	"frame": {"x":596,"y":713,"w":182,"h":181},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":182,"h":181},
+	"sourceSize": {"w":182,"h":181}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "21.0.0.35450",
+	"image": "23.1 CORRECTA_atlas_4.png",
+	"format": "undefined",
+	"size": {"w":1024,"h":1024},
+	"scale": "1"
+}
+}
