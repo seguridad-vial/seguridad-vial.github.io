@@ -1,0 +1,51 @@
+﻿{"frames": {
+
+"CachedBmp_357":
+{
+	"frame": {"x":0,"y":751,"w":607,"h":1105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":607,"h":1105},
+	"sourceSize": {"w":607,"h":1105}
+},
+"CachedBmp_358":
+{
+	"frame": {"x":609,"y":751,"w":679,"h":969},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":679,"h":969},
+	"sourceSize": {"w":679,"h":969}
+},
+"CachedBmp_360":
+{
+	"frame": {"x":1290,"y":751,"w":691,"h":714},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":691,"h":714},
+	"sourceSize": {"w":691,"h":714}
+},
+"CachedBmp_373":
+{
+	"frame": {"x":0,"y":0,"w":1716,"h":749},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1716,"h":749},
+	"sourceSize": {"w":1716,"h":749}
+},
+"Path_4":
+{
+	"frame": {"x":609,"y":1722,"w":1244,"h":307},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1244,"h":307},
+	"sourceSize": {"w":1244,"h":307}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "21.0.0.35450",
+	"image": "19 P_RESULTADOS_0__atlas_4.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}
