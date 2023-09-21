@@ -1,28 +1,12 @@
 ﻿{"frames": {
 
-"CachedBmp_95":
+"CachedBmp_301":
 {
-	"frame": {"x":0,"y":1515,"w":1069,"h":425},
+	"frame": {"x":0,"y":0,"w":1890,"h":1868},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":1069,"h":425},
-	"sourceSize": {"w":1069,"h":425}
-},
-"CachedBmp_96":
-{
-	"frame": {"x":0,"y":1088,"w":1069,"h":425},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":1069,"h":425},
-	"sourceSize": {"w":1069,"h":425}
-},
-"Mapadebits3":
-{
-	"frame": {"x":0,"y":0,"w":1929,"h":1086},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":1929,"h":1086},
-	"sourceSize": {"w":1929,"h":1086}
+	"spriteSourceSize": {"x":0,"y":0,"w":1890,"h":1868},
+	"sourceSize": {"w":1890,"h":1868}
 }},
 "meta": {
 	"app": "Adobe Animate",

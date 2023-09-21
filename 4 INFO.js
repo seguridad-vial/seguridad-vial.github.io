@@ -709,15 +709,15 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_124.png?1695306061136", id:"CachedBmp_124"},
-		{src:"images/CachedBmp_123.png?1695306061136", id:"CachedBmp_123"},
-		{src:"images/CachedBmp_122.png?1695306061136", id:"CachedBmp_122"},
-		{src:"images/CachedBmp_106.png?1695306061136", id:"CachedBmp_106"},
-		{src:"images/4 INFO_atlas_1.png?1695306061109", id:"4 INFO_atlas_1"},
-		{src:"images/4 INFO_atlas_2.png?1695306061109", id:"4 INFO_atlas_2"},
-		{src:"images/4 INFO_atlas_3.png?1695306061109", id:"4 INFO_atlas_3"},
-		{src:"images/4 INFO_atlas_4.png?1695306061109", id:"4 INFO_atlas_4"},
-		{src:"images/4 INFO_atlas_5.png?1695306061109", id:"4 INFO_atlas_5"}
+		{src:"images/CachedBmp_124.png?1695306359607", id:"CachedBmp_124"},
+		{src:"images/CachedBmp_123.png?1695306359607", id:"CachedBmp_123"},
+		{src:"images/CachedBmp_122.png?1695306359607", id:"CachedBmp_122"},
+		{src:"images/CachedBmp_106.png?1695306359607", id:"CachedBmp_106"},
+		{src:"images/4 INFO_atlas_1.png?1695306359581", id:"4 INFO_atlas_1"},
+		{src:"images/4 INFO_atlas_2.png?1695306359581", id:"4 INFO_atlas_2"},
+		{src:"images/4 INFO_atlas_3.png?1695306359581", id:"4 INFO_atlas_3"},
+		{src:"images/4 INFO_atlas_4.png?1695306359581", id:"4 INFO_atlas_4"},
+		{src:"images/4 INFO_atlas_5.png?1695306359581", id:"4 INFO_atlas_5"}
 	],
 	preloads: []
 };

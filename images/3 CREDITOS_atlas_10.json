@@ -1,0 +1,35 @@
+﻿{"frames": {
+
+"CachedBmp_96":
+{
+	"frame": {"x":0,"y":1541,"w":1069,"h":425},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1069,"h":425},
+	"sourceSize": {"w":1069,"h":425}
+},
+"Mapadebits3":
+{
+	"frame": {"x":0,"y":0,"w":1929,"h":1086},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1929,"h":1086},
+	"sourceSize": {"w":1929,"h":1086}
+},
+"Mapadebits4":
+{
+	"frame": {"x":0,"y":1088,"w":1117,"h":451},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1117,"h":451},
+	"sourceSize": {"w":1117,"h":451}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "21.0.0.35450",
+	"image": "3 CREDITOS_atlas_10.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}
