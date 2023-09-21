@@ -1,6 +1,6 @@
 ﻿{"frames": {
 
-"CachedBmp_192":
+"CachedBmp_95":
 {
 	"frame": {"x":0,"y":1515,"w":1069,"h":425},
 	"rotated": false,
@@ -8,7 +8,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":1069,"h":425},
 	"sourceSize": {"w":1069,"h":425}
 },
-"CachedBmp_193":
+"CachedBmp_96":
 {
 	"frame": {"x":0,"y":1088,"w":1069,"h":425},
 	"rotated": false,
@@ -27,7 +27,7 @@
 "meta": {
 	"app": "Adobe Animate",
 	"version": "21.0.0.35450",
-	"image": "2 PORTADA_atlas_4.png",
+	"image": "3 CREDITOS_atlas_7.png",
 	"format": "undefined",
 	"size": {"w":2048,"h":2048},
 	"scale": "1"
