@@ -1,6 +1,6 @@
 ﻿{"frames": {
 
-"CachedBmp_1034":
+"CachedBmp_38":
 {
 	"frame": {"x":0,"y":0,"w":1700,"h":668},
 	"rotated": false,
@@ -8,7 +8,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":1700,"h":668},
 	"sourceSize": {"w":1700,"h":668}
 },
-"CachedBmp_1042":
+"CachedBmp_46":
 {
 	"frame": {"x":0,"y":670,"w":1240,"h":666},
 	"rotated": false,
@@ -16,7 +16,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":1240,"h":666},
 	"sourceSize": {"w":1240,"h":666}
 },
-"CachedBmp_1052":
+"CachedBmp_56":
 {
 	"frame": {"x":0,"y":1338,"w":1586,"h":510},
 	"rotated": false,
