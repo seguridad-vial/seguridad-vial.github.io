@@ -1,27 +1,19 @@
 ﻿{"frames": {
 
-"CachedBmp_1":
+"flash0ai":
 {
-	"frame": {"x":0,"y":0,"w":1944,"h":735},
+	"frame": {"x":0,"y":0,"w":1613,"h":1006},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":1944,"h":735},
-	"sourceSize": {"w":1944,"h":735}
-},
-"CachedBmp_594":
-{
-	"frame": {"x":0,"y":737,"w":1767,"h":735},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":1767,"h":735},
-	"sourceSize": {"w":1767,"h":735}
+	"spriteSourceSize": {"x":0,"y":0,"w":1613,"h":1006},
+	"sourceSize": {"w":1613,"h":1006}
 }},
 "meta": {
 	"app": "Adobe Animate",
 	"version": "21.0.0.35450",
 	"image": "index_atlas_4.png",
 	"format": "undefined",
-	"size": {"w":2048,"h":2048},
+	"size": {"w":2048,"h":1024},
 	"scale": "1"
 }
 }

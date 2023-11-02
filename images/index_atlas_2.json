@@ -1,0 +1,19 @@
+﻿{"frames": {
+
+"flash0ai":
+{
+	"frame": {"x":0,"y":0,"w":1613,"h":1006},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1613,"h":1006},
+	"sourceSize": {"w":1613,"h":1006}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "21.0.0.35450",
+	"image": "index_atlas_2.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":1024},
+	"scale": "1"
+}
+}

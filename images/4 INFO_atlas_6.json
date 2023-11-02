@@ -1,12 +1,12 @@
 ﻿{"frames": {
 
-"CachedBmp_103":
+"CachedBmp_2":
 {
-	"frame": {"x":0,"y":1088,"w":1496,"h":672},
+	"frame": {"x":0,"y":1088,"w":1501,"h":672},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":1496,"h":672},
-	"sourceSize": {"w":1496,"h":672}
+	"spriteSourceSize": {"x":0,"y":0,"w":1501,"h":672},
+	"sourceSize": {"w":1501,"h":672}
 },
 "Mapadebits3":
 {

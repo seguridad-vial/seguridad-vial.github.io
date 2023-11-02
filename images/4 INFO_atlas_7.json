@@ -1,0 +1,27 @@
+﻿{"frames": {
+
+"CachedBmp_2":
+{
+	"frame": {"x":0,"y":1088,"w":1501,"h":672},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1501,"h":672},
+	"sourceSize": {"w":1501,"h":672}
+},
+"Mapadebits3":
+{
+	"frame": {"x":0,"y":0,"w":1929,"h":1086},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1929,"h":1086},
+	"sourceSize": {"w":1929,"h":1086}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "21.0.0.35450",
+	"image": "4 INFO_atlas_7.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}

@@ -25,8 +25,8 @@ lib.ssMetadata = [];
 
 
 
-(lib.Mapadebits2 = function() {
-	this.initialize(img.Mapadebits2);
+(lib.Mapadebits3 = function() {
+	this.initialize(img.Mapadebits3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2076,1291);
 
@@ -93,11 +93,19 @@ if (reversed == null) { reversed = false; }
 		if(this.totalFrames == 1) {
 			this.isSingleFrame = true;
 		}
-		this.X.addEventListener("click", fl_ClickToGoToWebPage);
-		
 		function fl_ClickToGoToWebPage() {
 			window.open("6 TIPOS DE SÑALES DE TRANSITO.html", "_self");
 		}
+		var parent = this
+		parent.stop()
+		
+		const sonidoX = new Audio("sounds/X.mp3");
+		this.X.addEventListener("click",() => {
+			sonidoX.play();
+			setTimeout(() => {
+				window.open("6 TIPOS DE SÑALES DE TRANSITO.html", "_self");
+			}, "700");	
+		});
 	}
 
 	// actions tween:
@@ -111,8 +119,8 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.X).wait(1));
 
-	// señales
-	this.instance = new lib.Mapadebits2();
+	// fondo
+	this.instance = new lib.Mapadebits3();
 	this.instance.setTransform(-88,-88);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -130,7 +138,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Mapadebits2.png?1694037219263", id:"Mapadebits2"}
+		{src:"images/Mapadebits3.png?1698939611699", id:"Mapadebits3"}
 	],
 	preloads: []
 };

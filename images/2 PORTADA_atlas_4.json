@@ -1,6 +1,6 @@
 ﻿{"frames": {
 
-"CachedBmp_192":
+"CachedBmp_68":
 {
 	"frame": {"x":0,"y":1515,"w":1069,"h":425},
 	"rotated": false,
@@ -8,7 +8,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":1069,"h":425},
 	"sourceSize": {"w":1069,"h":425}
 },
-"CachedBmp_193":
+"CachedBmp_69":
 {
 	"frame": {"x":0,"y":1088,"w":1069,"h":425},
 	"rotated": false,

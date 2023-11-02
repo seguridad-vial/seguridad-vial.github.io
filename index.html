@@ -14,7 +14,7 @@
 <title>index</title>
 <!-- write your code here -->
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-<script src="index.js?1696455703622"></script>
+<script src="index.js?1698853406459"></script>
 <script>
 // Global Scripts
 	</script>
@@ -27,7 +27,6 @@ function init() {
 	var comp=AdobeAn.getComposition("543E2DA3555B704E8B77A79C551F6E29");
 	var lib=comp.getLibrary();
 	var loader = new createjs.LoadQueue(false);
-	loader.installPlugin(createjs.Sound);
 	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
 	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
 	var lib=comp.getLibrary();
@@ -47,7 +46,8 @@ function handleComplete(evt,comp) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
 	exportRoot = new lib.index();
-	stage = new lib.Stage(canvas);	
+	stage = new lib.Stage(canvas);
+	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
 	fnStartAnimation = function() {
 		stage.addChild(exportRoot);
@@ -59,8 +59,6 @@ function handleComplete(evt,comp) {
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
-function playSound(id, loop, offset) {
-	return createjs.Sound.play(id, {'interrupt':createjs.Sound.INTERRUPT_EARLY, 'loop': loop, 'offset': offset});}
 </script>
 <!-- write your code here -->
 </head>

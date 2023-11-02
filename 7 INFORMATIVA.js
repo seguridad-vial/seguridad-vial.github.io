@@ -27,14 +27,30 @@ lib.ssMetadata = [
 
 
 
-(lib.Mapadebits5 = function() {
+(lib.Mapadebits4 = function() {
 	this.initialize(ss["7 INFORMATIVA_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
+// helper functions:
+
+function mc_symbol_clone() {
+	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop, this.reversed));
+	clone.gotoAndStop(this.currentFrame);
+	clone.paused = this.paused;
+	clone.framerate = this.framerate;
+	return clone;
+}
+
+function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
+	var prototype = cjs.extend(symbol, cjs.MovieClip);
+	prototype.clone = mc_symbol_clone;
+	prototype.nominalBounds = nominalBounds;
+	prototype.frameBounds = frameBounds;
+	return prototype;
+	}
 
 
-
-(lib.x = function(mode,startPosition,loop,reversed) {
+(lib.baseButtons = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -44,6 +60,36 @@ if (reversed == null) { reversed = false; }
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
+
+	// Capa_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("rgba(2,2,3,0.008)").s().p("AmfEpIAApSIM/AAIAAJSg");
+	this.shape.setTransform(41.625,29.75);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.baseButtons, new cjs.Rectangle(0,0,83.3,59.5), null);
+
+
+(lib.x = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {x:0};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Capa_3
+	this.capaFuncional = new lib.baseButtons();
+	this.capaFuncional.name = "capaFuncional";
+	this.capaFuncional.setTransform(31.45,33.25,1,1,0,0,0,41.6,29.8);
+
+	this.timeline.addTween(cjs.Tween.get(this.capaFuncional).wait(3));
 
 	// Capa_1
 	this.shape = new cjs.Shape();
@@ -63,15 +109,15 @@ if (reversed == null) { reversed = false; }
 
 	// Capa_1 copia copia
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#020203").s().p("Ak4EpQgwgzAmhBQAMgVATgUICbidQhOgig8gxQh4hiBZhJQA9gxB7BZQA9AtAyA3IAkgxQAug3AogkQA0gvAugJQA3gLA1AoQAvAignBCQgNAUgUAVIi1C4IB5ByQAxAvgHAtQgFAgglAiQgYAWgngDIgjgIIifieIiLCFQgSAXgcANQgTAJgRAAQgkAAgfghg");
-	this.shape_2.setTransform(34.4401,33.0859,0.8032,0.8032);
+	this.shape_2.graphics.f("#020203").s().p("Aj6DvQgngpAfg1QAJgQAQgQIB8h+Qg+gcgwgnQhhhOBIg7QAwgoBjBIQAxAkAoAsIAdgnQAlgtAggcQAqgmAlgHQAsgJAqAgQAnAcggA0QgKARgQARIiSCTIBiBcQAnAlgGAkQgEAagdAbQgUASgfgDIgcgGIiAh+IhvBqQgPATgWAKQgQAHgOAAQgcAAgZgag");
+	this.shape_2.setTransform(34.4425,33.082);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_2).to({_off:true},1).wait(2));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,68.8,66);
+p.nominalBounds = new cjs.Rectangle(-10.1,0,83.19999999999999,66);
 
 
 // stage content:
@@ -96,11 +142,16 @@ if (reversed == null) { reversed = false; }
 		if(this.totalFrames == 1) {
 			this.isSingleFrame = true;
 		}
-		this.X.addEventListener("click", fl_ClickToGoToWebPage);
+		var parent = this
+		parent.stop()
 		
-		function fl_ClickToGoToWebPage() {
-			window.open("6 TIPOS DE SÑALES DE TRANSITO.html", "_self");
-		}
+		const sonidoX = new Audio("sounds/X.mp3");
+		this.X.addEventListener("click",() => {
+			sonidoX.play();
+			setTimeout(() => {
+				window.open("6 TIPOS DE SÑALES DE TRANSITO.html", "_self");
+			}, "700");	
+		});
 	}
 
 	// actions tween:
@@ -115,15 +166,15 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.X).wait(1));
 
 	// texto
-	this.instance = new lib.Mapadebits5();
-	this.instance.setTransform(-66,-26);
+	this.instance = new lib.Mapadebits4();
+	this.instance.setTransform(-54,-26);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(894,514,1083,601);
+p.nominalBounds = new cjs.Rectangle(906,514,1083,601);
 // library properties:
 lib.properties = {
 	id: '4A1107B2B599A0409F68D47DA80CAA40',
@@ -133,7 +184,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/7 INFORMATIVA_atlas_1.png?1694037016271", id:"7 INFORMATIVA_atlas_1"}
+		{src:"images/7 INFORMATIVA_atlas_1.png?1698936208030", id:"7 INFORMATIVA_atlas_1"}
 	],
 	preloads: []
 };
