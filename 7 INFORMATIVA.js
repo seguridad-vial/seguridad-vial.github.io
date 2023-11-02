@@ -27,7 +27,7 @@ lib.ssMetadata = [
 
 
 
-(lib.Mapadebits4 = function() {
+(lib.Mapadebits6 = function() {
 	this.initialize(ss["7 INFORMATIVA_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -165,16 +165,16 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.X).wait(1));
 
-	// texto
-	this.instance = new lib.Mapadebits4();
-	this.instance.setTransform(-54,-26);
+	// fondo
+	this.instance = new lib.Mapadebits6();
+	this.instance.setTransform(-66,-26);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(906,514,1083,601);
+p.nominalBounds = new cjs.Rectangle(894,514,1083,601);
 // library properties:
 lib.properties = {
 	id: '4A1107B2B599A0409F68D47DA80CAA40',
@@ -184,7 +184,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/7 INFORMATIVA_atlas_1.png?1698936208030", id:"7 INFORMATIVA_atlas_1"}
+		{src:"images/7 INFORMATIVA_atlas_1.png?1698940310932", id:"7 INFORMATIVA_atlas_1"}
 	],
 	preloads: []
 };
