@@ -138,7 +138,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Mapadebits3.png?1698939611699", id:"Mapadebits3"}
+		{src:"images/Mapadebits3.png?1698940006862", id:"Mapadebits3"}
 	],
 	preloads: []
 };
