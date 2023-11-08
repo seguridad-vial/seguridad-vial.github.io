@@ -1,20 +1,20 @@
 ﻿{"frames": {
 
-"CachedBmp_1400":
+"CachedBmp_735":
+{
+	"frame": {"x":0,"y":1505,"w":1386,"h":420},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1386,"h":420},
+	"sourceSize": {"w":1386,"h":420}
+},
+"CachedBmp_737":
 {
 	"frame": {"x":0,"y":1083,"w":1386,"h":420},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":1386,"h":420},
 	"sourceSize": {"w":1386,"h":420}
-},
-"CachedBmp_1402":
-{
-	"frame": {"x":0,"y":1505,"w":2024,"h":188},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":2024,"h":188},
-	"sourceSize": {"w":2024,"h":188}
 },
 "flash1ai":
 {
